@@ -19,6 +19,10 @@
 		79B457BB25DA94E20001F213 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B4578C25DA94E00001F213 /* Persistence.swift */; };
 		79B457BC25DA94E20001F213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B4578D25DA94E20001F213 /* Assets.xcassets */; };
 		79B457BD25DA94E20001F213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B4578D25DA94E20001F213 /* Assets.xcassets */; };
+		79B457D125DA977D0001F213 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B457D025DA977D0001F213 /* ToDoItem.swift */; };
+		79B457D225DA977D0001F213 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B457D025DA977D0001F213 /* ToDoItem.swift */; };
+		79B457D825DAA04F0001F213 /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B457D725DAA04F0001F213 /* ToDoItemView.swift */; };
+		79B457D925DAA04F0001F213 /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B457D725DAA04F0001F213 /* ToDoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,8 @@
 		79B457AD25DA94E20001F213 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B457B125DA94E20001F213 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		79B457B325DA94E20001F213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B457D025DA977D0001F213 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		79B457D725DAA04F0001F213 /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,8 @@
 				79B4578C25DA94E00001F213 /* Persistence.swift */,
 				79B4578D25DA94E20001F213 /* Assets.xcassets */,
 				79B4578825DA94E00001F213 /* CoreDataToDoList.xcdatamodeld */,
+				79B457D025DA977D0001F213 /* ToDoItem.swift */,
+				79B457D725DAA04F0001F213 /* ToDoItemView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -317,7 +325,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				79B457B625DA94E20001F213 /* CoreDataToDoListApp.swift in Sources */,
+				79B457D825DAA04F0001F213 /* ToDoItemView.swift in Sources */,
 				79B457BA25DA94E20001F213 /* Persistence.swift in Sources */,
+				79B457D125DA977D0001F213 /* ToDoItem.swift in Sources */,
 				79B457B425DA94E20001F213 /* CoreDataToDoList.xcdatamodeld in Sources */,
 				79B457B825DA94E20001F213 /* ContentView.swift in Sources */,
 			);
@@ -328,7 +338,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				79B457B725DA94E20001F213 /* CoreDataToDoListApp.swift in Sources */,
+				79B457D925DAA04F0001F213 /* ToDoItemView.swift in Sources */,
 				79B457BB25DA94E20001F213 /* Persistence.swift in Sources */,
+				79B457D225DA977D0001F213 /* ToDoItem.swift in Sources */,
 				79B457B525DA94E20001F213 /* CoreDataToDoList.xcdatamodeld in Sources */,
 				79B457B925DA94E20001F213 /* ContentView.swift in Sources */,
 			);
